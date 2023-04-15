@@ -1,0 +1,32 @@
+<p>registration works!</p>
+
+<form [formGroup]="registrationForm">
+  <div class="form-group">
+    <label>User firstName:</label>
+    <input formControlName="name" type="text" name="Name" placeholder="firstName"><br>
+    <label>User lastName:</label>
+    <input formControlName="lastName" type="text" name="lastName" placeholder="lastName"><br>
+    <label for="exampleInputEmail1">Email address</label>
+    <input formControlName="Email"
+      type="email"
+      class="form-control"
+      id="exampleInputEmail1"
+      aria-describedby="emailHelp"
+      placeholder="Enter email"
+    /><br />
+    <small id="emailHelp" class="form-text text-muted"
+      >We'll never share your email with anyone else.</small
+    >
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password </label>
+    <input formControlName="Password"
+      type="password"
+      class="form-control"
+      id="exampleInputPassword1"
+      placeholder="Password"
+    />
+  </div>
+  <br />
+  <button type="submit" (click)="registration1(registrationForm.value)" [disabled]="!registrationForm.valid">registration</button>
+</form>

@@ -1,0 +1,31 @@
+{
+  "user": [
+    {
+      "name": "KRISHNA",
+      "Email": "sanjaysanju9898@gmail.com",
+      "Password": "SANJAY",
+      "id": 1
+    },
+    {
+      "name": "Kanyaboina",
+      "lastName": "Sanjay krishna",
+      "Email": "sanjaysanju9898@gmail.com",
+      "Password": "sanjay",
+      "id": 2
+    },
+    {
+      "name": "sanjay",
+      "lastName": "kanyaboina",
+      "Email": "sanjaysanju9898@gmail.com",
+      "Password": "sanjay",
+      "id": 3
+    },
+    {
+      "name": "Kanyaboina",
+      "lastName": "Sanjay krishna",
+      "Email": "sanjaysanju9898@gmail.com",
+      "Password": "SANJAY",
+      "id": 4
+    }
+  ]
+}
